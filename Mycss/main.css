@@ -21,6 +21,8 @@
     width: 33%; }
   .main-container__card-item p {
     margin: 0; }
+  .main-container__fluid-links {
+    width: 80%; }
 
 .word {
   word-break: break-all; }
@@ -49,6 +51,13 @@ table {
 .heigt {
   height: 30% !important; }
 
+.mardginT {
+  margin-top: 7px; }
+
+@media screen and (max-width: 1024px) {
+  .main-container__fluid-links {
+    width: 100%; } }
+
 @media screen and (max-width: 768px) {
   .main-container__info__left {
     padding-right: 0 !important; }
@@ -58,7 +67,13 @@ table {
     height: 60px !important;
     margin: 10px 0; }
   .main-container__card-item {
-    width: 100%; } }
+    width: 100%; }
+  .main-container__fluid-links a {
+    width: 40%; }
+  .main-container__fluid-links a:nth-last-child(1) {
+    margin-top: 10px; }
+  .main-container__fluid-links a:nth-last-child(2) {
+    margin-top: 10px; } }
 
 @media screen and (max-width: 425px) {
   .container-title a {
@@ -69,10 +84,10 @@ table {
   .container-title {
     display: flex;
     flex-direction: column; }
-  .mardginT {
-    margin-top: 7px; }
   .main-container__fluid a {
     padding: .4286rem .875rem;
     font-size: .6875rem;
     line-height: 1.5;
-    border-radius: .25rem; } }
+    border-radius: .25rem; }
+  .main-container__fluid-links a {
+    width: 45%; } }
