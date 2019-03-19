@@ -20,6 +20,7 @@
 
     &__info p {
         margin: 0;
+        margin-bottom: 5px;
     }
 
     &__info__left-top {
@@ -39,7 +40,7 @@
     }
 
     &__fluid-links {
-        width: 80%;
+        width: 62%;
     }
 }
 
@@ -88,6 +89,13 @@ table {
 
 
 
+@media screen and (max-width: 1440px) {
+    .main-container {
+        &__fluid-links {
+            width: 70%;
+        }
+    }
+}
 
 @media screen and (max-width: 1024px) {
     .main-container {
@@ -141,6 +149,7 @@ table {
         font-size: .6875rem;
         line-height: 1.5;
         border-radius: .25rem;
+        margin-top: 10px;
     }
 
     .container-title {
